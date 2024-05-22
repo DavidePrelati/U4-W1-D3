@@ -29,8 +29,8 @@ public class Rettangolo {
     @Override
     public String toString() {
         return "Rettangolo{" +
-                "altezza=" + altezza +
-                ", base=" + base +
+                "altezza= " + altezza +
+                ", base= " + base +
                 '}';
     }
 
@@ -41,5 +41,9 @@ public class Rettangolo {
 
     public double calcolaArea() {
         return base * altezza;
+    }
+
+    public void stampaRettangolo() {
+        System.out.println("L'area del rettangolo è: " + calcolaArea() + ", il perimetro è: " + calcolaPerimetro());
     }
 }
