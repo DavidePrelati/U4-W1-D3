@@ -9,10 +9,6 @@ public class Rettangolo {
         this.base = base;
     }
 
-    public static void stampaRettangolo(Rettangolo rettangolo) {
-        System.out.println("Area: " + rettangolo.calcolaArea());
-        System.out.println("Perimetro: " + rettangolo.calcolaPerimetro());
-    }
 
     public double getBase() {
         return base;
